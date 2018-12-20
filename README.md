@@ -1,6 +1,6 @@
 <span style="color: red"> H1B_VISA </span> 
 
-<span style="color:red">## This Project is volunteer work for a startup which is trying to simplify the immigration process **This is Red Bold.** text</span>
+<span style="color : red"> This Project is volunteer work for a startup which is trying to simplify the immigration process **This is Red Bold.** text</span>
 
 ## This Project is volunteer work for a startup which is trying to simplify the immigration process
 
