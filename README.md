@@ -12,7 +12,8 @@
 
 # To Do List
 ## Cleansing & Transformation:
-*  We are going get rid of redundant columns as in country we only have all United states of America and the missing values in that column were also USA Reason for removing Employer Province aswe have another column which is called EMPLOYER STATE which is same as province'EMPLOYER_COUNTRY''EMPLOYER_PROVINCE'
+*  We are going get rid of redundant columns as in country we only have all United states of America and the missing values in that column were also USA 
+* Reason for removing Employer Province as we have another column which is called EMPLOYER STATE which is same as province EMPLOYER_PROVINCE
 
 *  Changing the Target variable: CASE_STATUS to 0 and 1 
  
