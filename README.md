@@ -13,11 +13,17 @@
 # To Do List
 ## Cleansing & Transformation:
 *  We are going get rid of redundant columns as in country we only have all United states of America and the missing values in that column were also USA 
+
 * Reason for removing Employer Province as we have another column which is called EMPLOYER STATE which is same as province EMPLOYER_PROVINCE
 
 *  Changing the Target variable: CASE_STATUS to 0 and 1 
  
 *  Date Transformation: All the dates are in string format which we would like to convert into date
+
 * We would like to see the difference of date that is employment starting date and employment end date. 
+
 * We would like to see the processing time of decision making 
-*  We will add a new column for each employment duration and processing time 
+
+* We will add a new column for each employment duration and processing time
+
+* Adjust the WAGE_UNIT_OF_PAY has different levels  'Year', 'Hour', 'Week', 'Bi-Weekly', 'Month', nan. And that is why we need to convert income in one standard we will try converting all in Year ** format 
