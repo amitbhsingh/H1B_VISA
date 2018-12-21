@@ -1,4 +1,4 @@
-<span style="color: red"> H1B_VISA </span>
+
 <b style='color:red'>H1B_VISA</b>
 
 
