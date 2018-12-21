@@ -1,6 +1,5 @@
-'''diff
-+ <span style="color: red"> H1B_VISA </span> 
-'''
+<span style="color: red"> H1B_VISA </span> 
+<b style='color:red'>H1B_VISA</b>
 
 
 ## This Project is volunteer work for a startup which is trying to simplify the immigration process
