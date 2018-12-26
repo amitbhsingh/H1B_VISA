@@ -13,7 +13,7 @@
 ## Exploration with visuals and aggregation to better understand data:
 * Total of Visa Certified and Denied plotting and numerical glimpse
 * Top 10 Employers
-* Acceptance rate of visa Certified or Denied
+* Acceptance rate of the Companies or let's say brand names 
 
 ## To Do List
 ### Cleansing & Transformation:
