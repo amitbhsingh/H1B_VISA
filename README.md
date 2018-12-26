@@ -10,6 +10,11 @@
 
 #### Here the goal: is we are tying make a predictive model that can possibly predict the outcome as if and individual applicant of H1B_VISA is Approved or Declined based on given features i.e information he has provided while filling the form for immigration
 
+# Exploration:
+* Total of Visa Certified and Denied Visuals
+* Top 10 Employers
+* Acceptance rate of visa Certified or Denied
+*
 # To Do List
 ## Cleansing & Transformation:
 *  We are going get rid of redundant columns as in country we only have all United states of America and the missing values in that column were also USA 
