@@ -34,3 +34,10 @@
 
 * Adjust the WAGE_UNIT_OF_PAY has different levels  'Year', 'Hour', 'Week', 'Bi-Weekly', 'Month', nan. And that is why we need to convert income in one standard we will try converting all in Year format 
 * We are going to manually select all the categorical value and encode them to numeric form
+
+
+
+
+# Modeling
+## Train and Test split excluding the float and Timedelta due to error in python.  
+
