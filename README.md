@@ -1,7 +1,6 @@
 
 # <b style="color:red; font-family: Babas; font-size: 2em;"> H1B_VISA  </b>
 
-# Check it out I am so lost
 
 
 #### This Project is an attempt to simplify the immigration process
