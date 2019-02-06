@@ -41,3 +41,5 @@
 ## Train and Test split excluding the float and Timedelta due to error in python.  
 ## Adding features one by one to test if the modeling is improving/ Baseline model is working now with few variables it is giving 58 % Accuracry
 ## Parameter tunning improved the accuracy to 62 percent 
+## lol 100 Percent with Xgboost which is unreal and unbelievable. But curious to find out the reason 
+
