@@ -1,5 +1,5 @@
 
-# [H1B_VISA Project in jupyter nbviewer](https://github.com/amitbhsingh/H1B_VISA)
+# [H1B_VISA Project in jupyter nbviewer](https://nbviewer.jupyter.org/github/amitbhsingh/H1B_VISA/blob/master/h1.ipynb)
 
 
 #### This Project is an attempt to simplify the immigration process
