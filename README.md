@@ -1,6 +1,5 @@
 
-# <b style="color:red; font-family: Babas; font-size: 2em;"> H1B_VISA  </b>
-
+# [H1B_VISA Project in jupyter nbviewer](https://github.com/amitbhsingh/H1B_VISA)
 
 
 #### This Project is an attempt to simplify the immigration process
