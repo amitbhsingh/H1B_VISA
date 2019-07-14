@@ -6,7 +6,7 @@
 
 # Abstract:
 
-> ###  We are tying to  make a predictive model that can possibly predict the outcome. If an individual applicant of H1B_VISA is Approved or Declined based on given features i.e information he has provided while filling the form for immigration
+> *  We are tying to  make a predictive model that can possibly predict the outcome. If an individual applicant of H1B_VISA is Approved or Declined based on given features i.e information he has provided while filling the form for immigration
 
 ### Initial exploration with visuals and aggregation to better understand data:
 > * [We have given the total of Certified and Denied cases plotting them gives visual idea and numerical glimpse Click to see the project](https://github.com/amitbhsingh/H1B_VISA/blob/master/.ipynb_checkpoints/h1-checkpoint.ipynb)
@@ -33,10 +33,10 @@
 
 
 
-# Modeling
-> ### Train and Test split excluding the float and Timedelta due to error in python.  
-> ### Adding features one by one to test if the modeling is improving/ Baseline model is working now with few variables it is giving 58 % Accuracry
-> ### Parameter tunning improved the accuracy to 62 percent 
-> ###  100 Percent with Xgboost which is unreal and unbelievable. But curious to find out the reason 
-> ### _kfrold cross validation with  Accuracy: 99.98% (0.07%) Still I am skeptical  and I would like to cross verify the results_
+### Modeling
+> * Train and Test split excluding the float and Timedelta due to error in python.  
+> * Adding features one by one to test if the modeling is improving/ Baseline model is working now with few variables it is giving 58 % Accuracry
+> * Parameter tunning improved the accuracy to 62 percent 
+> *  100 Percent with Xgboost which is unreal and unbelievable. But curious to find out the reason 
+> * _kfrold cross validation with  Accuracy: 99.98% (0.07%) Still I am skeptical  and I would like to cross verify the results_
 
