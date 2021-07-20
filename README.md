@@ -38,5 +38,6 @@
 > * Adding features one by one to test if the modeling is improving/ Baseline model is working now with few variables it is giving 58 % Accuracry
 > * Parameter tunning improved the accuracy to 62 percent 
 > *  100 Percent with Xgboost which is unreal and unbelievable. But curious to find out the reason 
-> * _kfold cross validation with  Accuracy: 99.98% (0.07%) these result is highly unnlikely to be correct_
+
+* _kfold cross validation with  Accuracy: 99.98% (0.07%) these result is highly unnlikely to be correct_
 
