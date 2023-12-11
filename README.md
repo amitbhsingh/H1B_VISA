@@ -1,43 +1,41 @@
+# H1B Visa Approval Prediction Project
 
-# [H1B_VISA Project in jupyter nbviewer](https://nbviewer.jupyter.org/github/amitbhsingh/H1B_VISA/blob/master/h1.ipynb)
+## [Project Notebook View](https://nbviewer.jupyter.org/github/amitbhsingh/H1B_VISA/blob/master/h1.ipynb)
+This project is an exploratory and predictive analysis conducted on H1B visa application data. The goal is to simplify the immigration process by predicting the outcome (Approval or Denial) of H1B Visa applications.
 
+## Abstract
+The objective is to create a predictive model to determine the likelihood of an H1B visa application being approved or denied based on provided applicant information.
 
-# This Project is an attempt to simplify the immigration process
+### Initial Exploration
+- Visualizations and aggregations were used to understand the dataset better.
+- Analysis of certified and denied cases.
+- Insights into top employers and the frequency of applications from different companies.
 
-# Abstract:
-
-> *  We are tying to  make a predictive model that can possibly predict the outcome. If an individual applicant of H1B_VISA is Approved or Declined based on given features i.e information he has provided while filling the form for immigration
-
-### Initial exploration with visuals and aggregation to better understand data:
-> * [We have given the total of Certified and Denied cases plotting them gives visual idea and numerical glimpse Click to see the project](https://github.com/amitbhsingh/H1B_VISA/blob/master/.ipynb_checkpoints/h1-checkpoint.ipynb)
-> * Some of the insights Top 10 Employers. Frequancy of application by companies name gives an idea about which companies experience if applicant has stated in the form has higher chances and also the number of succesful applications.
-
-### Cleansing
-> *  We are going get rid of redundant columns as in country we only have all United states of America and the missing values in that column were also USA 
-
-> * Reason for removing Employer Province as we have another column which is called EMPLOYER STATE which is same as province EMPLOYER_PROVINCE
-
-> *  Changing the Target variable: CASE_STATUS from CERTIFIED & DENIED TO 1,0 respectively as we know computers(algorithms) understand numbers better than alpahbets for computation
- 
-> *  Date Transformation: All the dates are in string format which we would like to convert into date
-
-> * We would like to see the difference of date that is employment starting date and employment end date 
-
-> * We would like to see the processing time of decision making 
-
-> * We will add a new column for each employment duration and processing time
-
-> * Adjust the WAGE_UNIT_OF_PAY has different levels  'Year', 'Hour', 'Week', 'Bi-Weekly', 'Month', nan. And that is why we need to convert income in one standard we will try converting all in Year format 
-> * We are going to manually select all the categorical value and encode them to numeric form
-
-
-
+### Data Cleansing
+- Removal of redundant columns, such as 'EMPLOYER_COUNTRY' and 'EMPLOYER_PROVINCE'.
+- Conversion of the 'CASE_STATUS' column from textual to numerical representation (1 for Certified, 0 for Denied).
+- Transformation of date strings into datetime objects to calculate employment duration and processing times.
+- Standardization of wage units to a consistent format (yearly).
+- Encoding of categorical variables into numeric format.
 
 ### Modeling
-> * Train and Test split excluding the float and Timedelta due to error in python.  
-> * Adding features one by one to test if the modeling is improving/ Baseline model is working now with few variables it is giving 58 % Accuracry
-> * Parameter tunning improved the accuracy to 62 percent 
-> *  100 Percent with Xgboost which is unreal and unbelievable. But curious to find out the reason 
+- **Train-Test Split:** Excluding float and Timedelta types due to Python compatibility issues.
+- **Baseline Model:** Initial models showed an accuracy of 58%, improving to 62% with parameter tuning.
+- **XGBoost:** Achieved an unrealistically high accuracy of 100%, warranting further investigation.
+- **K-Fold Cross-Validation:** Reported an unlikely accuracy of 99.98%, suggesting possible overfitting or data leakage.
 
-* _kfold cross validation with  Accuracy: 99.98% (0.07%) these result is highly unnlikely to be correct_
+### Models Used
+- **Logistic Regression:** As a baseline for performance benchmarking.
+- **Random Forest & Decision Trees:** For capturing complex patterns in the data.
+- **KMeans Clustering:** An unsupervised approach to discover inherent data groupings.
+- **XGBoost:** Noted for its high accuracy, but requires further validation.
 
+### Project Outcomes
+- Enhanced understanding of factors influencing H1B visa approvals.
+- Identification of potential overfitting in complex models.
+- Insights into employer trends and application frequencies.
+
+### Future Work
+- Addressing the overfitting in complex models like XGBoost.
+- Further exploration of feature engineering and selection.
+- Continued validation and refinement of model parameters.
